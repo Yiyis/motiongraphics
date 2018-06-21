@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
 
 //colors
-$color: pink;
+$color: #a6f3c9;
 $white: #fff;
 
 //base styles
@@ -35,14 +35,14 @@ body {
     width: 100%;
 }
 
-.container { 
+.container {
     align-items: center;
   display: flex;
     flex-direction: column;
     justify-content: center;
   padding: 1em;
-  text-align: center; 
-    
+  text-align: center;
+
     @media (min-width: 600px) {
         flex-direction: row;
         justify-content: space-between;
@@ -54,15 +54,15 @@ h1 {
   font-size: 1.25em;
   font-weight: 900;
   margin: 0 0 2em;
-  
+
   @media (min-width: 450px) {
     font-size: 1.75em;
   }
-  
+
   @media (min-width: 760px) {
     font-size: 3.25em;
   }
-  
+
   @media (min-width: 900px) {
     font-size: 5.25em;
     margin: 0 0 1em;
@@ -73,21 +73,21 @@ h1 {
 p {
   color: $white;
   font-size: 14px;
-  
+
   @media(min-width: 600px) {
     left: 50%;
-    position: absolute; 
+    position: absolute;
     transform: translate(-50%, 0);
     top: 90%;
   }
-  
+
   @media(max-height: 500px) {
     left: 0;
     position: relative;
     top: 0;
     transform: translate(0, 0);
   }
-  
+
   a {
     background: rgba($white, 0);
     border-bottom: 1px solid;
@@ -95,9 +95,9 @@ p {
     line-height: 1.4;
     padding: .25em;
     text-decoration: none;
-    
+
     &:hover {
-      background: rgba($white, 1);
+      background: rgba($white, 0.9);
       color: $color;
     }
   }
@@ -114,24 +114,24 @@ p {
   font-weight: 400;
   line-height: 45px;
   margin: 0 0 2em;
-  max-width: 160px; 
+  max-width: 160px;
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
-  width: 100%; 
+  width: 100%;
 
   @media(min-width: 600px) {
-      
+
     margin: 0 1em 2em;
-    
+
   }
-  
+
   &:hover { text-decoration: none; }
 }
 
 
 /////////////////////////////
-//button-5 
+//button animation
 ///////////////////////////
 .btn-5 {
   border: 0 solid;
@@ -141,12 +141,12 @@ p {
   outline-offset: 0px;
   text-shadow: none;
   transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
-} 
+}
 
 .btn-5:hover {
   border: 1px solid;
   box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
   outline-color: rgba(255, 255, 255, 0);
   outline-offset: 15px;
-  text-shadow: 1px 1px 2px #427388; 
+  text-shadow: 1px 1px 2px #427388;
 }
