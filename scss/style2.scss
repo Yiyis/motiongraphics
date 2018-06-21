@@ -79,7 +79,7 @@ body {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background:#fff;
+  background-color: #fff;
   z-index:0;
   animation: rotate 6s linear infinite;
 
@@ -90,7 +90,7 @@ body {
   height: 950px;
   --pos: 50% 50%;
   --gradient: radial-gradient(black 67%, transparent 68%);
-   background: linear-gradient(#ebc98c, #0ff);
+  background: linear-gradient(#ebc98c, #0ff);
   border-radius: 50%;
   position: absolute;
   top: 50%;
@@ -113,7 +113,7 @@ body {
     transform: translateZ(0);
     content: "";
   }
-          &:hover {
+    &:hover {
   background: linear-gradient(#fff, #fff);
   }
 }
